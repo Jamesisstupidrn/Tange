@@ -2,14 +2,18 @@ public class Runner {
     public static void main(String[] args) {
         System.out.println("Hello CSA");
         System.out.println("What's up");
-        int x = 5;
-        x += 10;
-        x++;
-        System.out.println("x is now " +x);
-        if (x > 10) {
+        int y = 5;
+        y += 10;
+        y++;
+        System.out.println("x is now " +y);
+        if (y > 10) {
             System.out.println("boop");
         } else {
             System.out.println("beep");
         }
+        System.out.println("fun with git");
+        System.out.println(y + 15);
+        System.out.println("yayaaaaayyyy");
+        System.out.println();
     }
 }
